@@ -1,0 +1,166 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #EAF7FF;
+}
+
+.logo {
+    width: 180px;
+    height: 60px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    background: #FFF;
+    color: #A3A0A0;
+    font-family: Inter;
+    font-size: 22px;
+    font-weight: 700;
+    text-decoration: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.search_input {
+    position: relative;
+    margin-left: 170px;
+}
+
+.search_input input[type="text"] {
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 400;
+    width: 523px;
+    height: 60px;
+    flex-shrink: 0;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    padding: 0 30px 0 10px;
+    background: #FFF;
+}
+
+.search_icon {
+    position: absolute;
+    top: 25%;
+    right: 10px;
+}
+
+
+.signup,
+.signin {
+    width: 180px;
+    height: 60px;
+    border-radius: 5px;
+    border: 1px solid rgba(0, 0, 0, 0.25);
+    background: #FFF;
+    color: #A3A0A0;
+    font-family: Inika;
+    font-size: 22px;
+    font-weight: 700;
+    position: relative;
+    padding-left: 40px;
+}
+
+.signup_icon,
+.signin_icon {
+    position: absolute;
+    top: 12%;
+    left: 10px;
+}
+
+.signup_icon_and_text {
+    position: relative;
+    margin-left: 20px;
+}
+
+.signin_icon_and_text {
+    position: relative;
+    margin-left: 20px;
+}
+
+.navbar {
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    padding-top: 30px;
+}
+
+.first_nav {
+    display: flex;
+    width: 1318px;
+    position: relative;
+    margin-bottom: 20px;
+}
+
+.second_nav {
+    background-color: #00f;
+    border-radius: 5px;
+    display: flex;
+    width: 1318px;
+    height: 68px;
+    justify-content: space-between;
+    align-items: flex-start;
+    flex-shrink: 0;
+}
+
+.nav_car_parts {
+    margin: 13px 0 0 3px;
+    padding: 13px 90px 11px 40px;
+    border-radius: 3px;
+    background: #FFF;
+    color: #A7ADB4;
+    font-family: Inika;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+.nav_ul ul li {
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    padding: 2% 20px 0 20px;
+    margin: -5px 10px 0 0;
+    justify-content: space-between;
+    color: #FFF;
+    font-family: Inika;
+    font-size: 25px;
+    font-weight: 700;
+    line-height: 13px;
+}
+
+.nav_cart_and_balance {
+    width: 260px;
+    height: 41px;
+    border-radius: 3px;
+    background: #FFF;
+    margin: 13px 3px 0 0px;
+    display: flex;
+
+}
+
+.nav_balance {
+    color: #A7ADB4;
+    font-family: Inika;
+    font-size: 22px;
+    font-weight: 400;
+    padding: 20px;
+}
+
+.nav_cart_item {
+    color: #636363;
+    font-family: Inika;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 12px;
+    padding-top: 20px;
+}
+
+.nav_cart_icon svg {
+    width: 31.111px;
+    height: 26.227px;
+    padding: 8px 5px 5px 20px;
+}
+
+.nav_cart_item_and_balance {
+    padding-top: 7px;
+}
